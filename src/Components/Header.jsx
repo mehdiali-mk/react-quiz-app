@@ -1,7 +1,7 @@
 // import reactLogo from "../../public/logo512.png";
 
 function Header() {
-  const reactLogoSrc = "../../public/assets/logo512.png";
+  const reactLogoSrc = "./logo512.png";
   return (
     <header className="app-header">
       <img src={reactLogoSrc} alt="React logo" />
