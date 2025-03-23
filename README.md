@@ -10,13 +10,19 @@ A simple and interactive **React Quiz App** designed to test your knowledge of R
 - 🔄 State management using **useState, useEffect, and useReducer**.
 - 📡 Uses **JSON Server** as a backend to fetch quiz questions.
 
-## 🖼 Screenshots
+## 📸 Screenshots
 
-(Add your screenshots here)
+### 🔹 MacBook Website View
+
+<p align="center">
+  <img src="./public/Macbook-Image.png" width="60%">
+</p>
+
+<p align="center"><i>MacBook Website View</i></p>
 
 ## 🔗 Live Demo
 
-[Live Version](#) (Replace with your live link)
+[![Try Quiz App Now](https://react-quiz-app-mehdiali-kadiwalas-projects.vercel.app/)]
 
 ## 🛠 Technologies Used
 
@@ -30,7 +36,7 @@ A simple and interactive **React Quiz App** designed to test your knowledge of R
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/react-quiz-app.git
+   git clone https://github.com/mehdiali-mk/react-quiz-app
    cd react-quiz-app
    ```
 
@@ -43,12 +49,12 @@ A simple and interactive **React Quiz App** designed to test your knowledge of R
 3. **Start the JSON Server:**
 
    ```sh
-   npx json-server --watch db.json --port 5000
+   npx json-server --watch ./Data/Questions.json --port 8088
    ```
 
 4. **Run the app:**
    ```sh
-   npm start
+   npm run dev
    ```
 
 ## 📄 Folder Structure
@@ -58,8 +64,6 @@ react-quiz-app/
 │-- public/
 │-- src/
 │   │-- components/
-│   │-- hooks/
-│   │-- context/
 │   │-- assets/
 │   │-- App.js
 │   │-- index.js
@@ -78,4 +82,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-✨ Developed by [Your Name](https://github.com/your-username) ✨
+✨ Developed by [Mehdiali Kadiwala](https://github.com/mehdiali-mk/) ✨
