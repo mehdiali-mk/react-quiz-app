@@ -22,7 +22,7 @@ A simple and interactive **React Quiz App** designed to test your knowledge of R
 
 ## 🔗 Live Demo
 
-[![Try Quiz App Now](https://react-quiz-app-mehdiali-kadiwalas-projects.vercel.app/)]
+👉 **[Try React Quiz Now](https://react-quiz-app-three-ashen.vercel.app/)**
 
 ## 🛠 Technologies Used
 
