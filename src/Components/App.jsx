@@ -110,9 +110,12 @@ function App() {
   );
 
   useEffect(function () {
-    fetch("http://localhost:8088/questions")
+    // fetch("http://localhost:8088/questions")
+    fetch("https://mehdiali-mk.github.io/react-quiz-app/Data/Questions.json")
       .then((response) => response.json())
-      .then((data) => dispatch({ type: "dataReceived", payload: data }))
+      .then((data) =>
+        dispatch({ type: "dataReceived", payload: data.questions })
+      )
       .catch((err) => dispatch({ type: "dataFailed" }));
   }, []);
 
